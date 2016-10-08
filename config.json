@@ -1,0 +1,6 @@
+{
+    "appSecret": "abc",
+    "pageAccessToken": "def",
+    "validationToken": "my_secret_token",
+    "serverURL": "ghi"
+}
