@@ -13,7 +13,7 @@ const APP_SECRET = (process.env.MESSENGER_APP_SECRET) ?
   config.appSecret;
 
 // Arbitrary value used to validate a webhook
-var VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
+const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
   (process.env.MESSENGER_VALIDATION_TOKEN) :
   config.validationToken;
 
